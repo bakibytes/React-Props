@@ -1,0 +1,146 @@
+.parent{
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.card {
+  height: 350px;
+  width: 330px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid rgba(179, 176, 176, 0.904);
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.top-left img {
+  height: 44px;
+  width: 44px;
+  border-radius: 20px;
+  /* border: 1px solid rgba(236, 232, 232, 0.916); */
+  cursor: pointer;
+}
+
+.top-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  padding: 5px;
+  width: 65px;
+  border: 1px solid rgba(236, 232, 232, 0.916);
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #b9b6b6db;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.top-right img {
+  height: 20px;
+  width: auto;
+  margin-top: 4px;
+}
+
+
+
+
+.center {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.center-top {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.center-top p {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.center-top span {
+  font-size: 11px;
+  font-weight: 600;
+  color: #b1acac;
+  margin-top: 3px;
+  padding: 6px;
+}
+
+
+.center-middle {
+  display: flex;
+  font-weight: 800;
+}
+
+.center-bottom {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.center-bottom div {
+  background-color: #c0bbbb;
+  height: 35px;
+  font-size: 14px;
+  font-weight: 600;
+  width: auto;
+  padding: 9px;
+  border-radius: 8px;
+}
+
+
+.bottom {
+  border-top: 1px solid #ded9d9d5;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.bottom-left p:nth-child(1) {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+
+.bottom-left p:nth-child(2){
+  font-weight: 400;
+  color: #b1acac;
+  font-size: 14px;
+}
+
+.bottom-right{
+  height: 40px;
+  width: auto;
+  padding: 8px;
+  border: none;
+  background-color: black;
+  text-align: center;
+  border-radius: 9px;
+  color: white;
+  cursor: pointer;
+}
